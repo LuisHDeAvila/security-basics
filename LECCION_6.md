@@ -24,7 +24,7 @@ Si estas en PC tecla el siguiente atajo:
  ```
 Si estas en smartphone o algo similar, busca la aplicacion HTML VIEWER, e introduce el URL de cualquier sitio del que quieras ver su codigo HTML.
 un ejemplo, es la foto de perfil de ins7agr4m, la cual se supone que no debes obtener ni permiso para guardar ni permiso para realizar zoom. Cosa que cambia cuando tienes el link de referencia directo al archivo de dicho recurso.
-y este es un ejemplo de lo mas inocente, ya que seguramente la aplicacion es conciente de este hecho, y solo brinca una capa adicional por temas de usabilidad.
+y este es un ejemplo de lo mas inocente, ya que seguramente los mantenedores de la aplicacion son concientes de este hecho, y solo brinca una capa adicional por temas de usabilidad.
 
 ## Capas?
 Como las munecas rusas, esas que vienen una dentro de la otra, o como shrek nos explico en su siniestra intervencion sobre las cebollas. Las capas por ejemplo en el modelo OSI brincan ABSTRACCION para comprender mejor algunas cosas complicadas. Por el momento no abordare el Modelo OSI y sus 8 capas, siendo 7 reales y la octava agregada por mi para hacer incapie en que el ser humano tambien representa un vector por el cual se ataca a las organizaciones. Ya sabes lo que dicen, No confies en nadie. (en seguridad informatica se conoce como politica ZeroTrust)
