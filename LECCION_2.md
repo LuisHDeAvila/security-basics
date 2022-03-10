@@ -19,12 +19,19 @@ me diria.
 ```
 .rw-r--r-- eleache eleache  64 KB Tue Mar  8 21:12:14 2022 - \.pdf
 .rw-r--r-- eleache eleache   0 B  Thu Jan 27 05:58:44 2022 - anon.txt
+.110100100  # representacion en binario
+.[110][100][100] # binario separado en 3 grupos: propietario, grupo y otros
+.[421][421][421] # representacion de las posiciones equivalentes en sistema decimal
+.[7][7][7] = 111 111 111 = rwxrwxrwx = Maximo nivel de privilegios.
+
+Dato: 
+
 ```
 podras notar unas letras y guiones al principio de la breve lista, digamos que significa que propietario puede leer(read) y escribir(write), grupo solo leer(read), y otros solo leer(read), ninguno tiene permiso de ejecucion (x).
 Eso es el sistema de permisos del kernel linux, que hereda del lenguaje de programacion C, que tambien se lo heredo a sus semejantes Windows y MacOS.
 Pero el sistema de autenticacion va mas alla en nuestra sociedad, pues en algunos paises ya se pide un chip para identificacion de la poblacion, o se le ponen numeros del en vez de nombres a los ninos por ser muy parecidos, tal es el caso de los paises asiaticos, de donde provienen los sistemas de huella digital (confirmo, ni ellos logran distinguirse ya que son muy parecidos, mas los "HAN", con todo respeto).
 
-## como hacker tu primer hackeo aqui y ahora
+## como realizar tu primer hackeo etico! __ aqui y ahora __!
 entra a [Online GDB](https://www.onlinegdb.com/) 
 selecciona BASH como lenguaje.
 copia y pega esto
