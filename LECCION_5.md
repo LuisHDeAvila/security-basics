@@ -1,5 +1,5 @@
 # Etica
-habras notado que los archivos no vinen con su titulo solo vienen enumerados, pues esto es para que cada uno sea una sorpresa.
+Los archivos no vinen con el titulo del post, solo son enumerados, pues esto es para que cada uno sea una sorpresa. Algo grandioso, que ansies abrir el siguiente, mientras mas lees...
 pero esta vez te toco el aburrido. 
 Recordaras que en la leccion donde hable de los script kiddies sone algo fanfarron o arrogante, si no es que heri algunas sensibilidades.
 y te digo un secretito. Todos comenzamos de alguna forma, yo soy de los que enlugar de comenzar de cero, solo empeze a darle usos diferentes y significados a lo que ya hacia a diario.
