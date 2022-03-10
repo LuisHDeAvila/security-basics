@@ -31,8 +31,14 @@ Confidencialidad, Integridad, y Accesibilidad.
 
 ## Que es un script kiddie, Cracker y phracker
 Script kiddie: 
-  mira si pensabas que iba a criticar a los script kiddie, pues no, porque saben exactamente lo incompetente que es usar herramientas de otros. y para ser sinceros, ni el mismo sujeto que le agrego el distintivo a Linux de ser usar titulos en las distros compuestas por mas de dos palabras, en alGNUo de estos sitemas operativos se incrusta software de terceros, sabiendo todos que el ni es el autor, ni es relevante dentro del proyecto linux, es decir es facilmente reemplazable, este personaje insiste en imponerle un nombre diferente al kernel. "Linux".
+  mira si pensabas que iba a criticar a los script kiddie, pues no, porque saben exactamente lo incompetente que es usar herramientas de otros. y para ser sinceros, ni el mismo sujeto que le agrego el distintivo a Linux de usar estos titulos en las distros compuestas por mas de dos palabras, en alGNUo de estos sitemas operativos se incrusta software de terceros, como el que permite la telemetria. sabiendo todos que el ni es el autor, ni es relevante dentro del proyecto linux, es decir es facilmente reemplazable, este personaje insiste en imponerle un nombre diferente al del kernel: "Linux".
+  pero esas son guerras santas, cosas que nunca terminan, conflictos que siempre surgen, Listillos que quieren abusar de la ignorancia de la gente, supuestas guerras fantasma, virus probabilisticamente imposibles (una particula de proteina es una maravilla de la existencia, un conjunto de casualidades extraordinarias, y aun asi es 100 veces menor en masa a la particula de un virus supuestamente espontaneo), la mejor contramedida con un ambiente tan singular, es nunca perder de vista el criterio, recurrir al pensamiento lateral, y sobre todo, nunca dejar de aprender. 
+```  
+    {
+  Cracker: 
+  Phracker: }
+    ambos roban
   {
-Cracker: 
-Phracker: }
-  ambos roban
+  Script kiddie: 
+  } no roba ni sirve, usa herramientas de otros
+```
