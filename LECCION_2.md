@@ -1,7 +1,7 @@
 # Autorizacion y Autenticacion
 
 ## Autenticacion
-es el priceso de demostrar la posesion de una identidad determinada presentando uno o varios atributos de dicha identidad (clave, huella dactilar, certificado electronico, etc.)
+es el proceso de demostrar la posesion de una identidad determinada presentando uno o varios atributos de dicha identidad (clave, huella dactilar, certificado electronico, etc.)
 
 ## Autorizacion
 proceso por el cual una autoridad concede a un usuario permisos de acceso a cierto conjunto de recursos ya sean archivos, sistemas, etc.
