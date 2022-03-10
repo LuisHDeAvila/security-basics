@@ -1,0 +1,16 @@
+# Te contare 2 historias y tu adivinas a que genero pertenece cada una: "El solitario" y "El prisionero"
+
+## El solitario
+En la novela Criptonomicón, de Neal Stephenson, el personaje Enoch Root describe un criptosistema llamado "Pontifex" a otro personaje llamado Randy Waterhouse, y más tarde le revela que los pasos del algoritmo están pensados para desarrollarse usando una baraja de cartas. Estos dos personajes intercambian varios mensajes cifrados utilizando este sistema. El sistema se llama "Solitario" (en la novela, "Pontifex" es un nombre clave que pretende disimular el hecho de que se emplee una baraja) y lo diseñé para permitir a un agente el comunicarse de forma segura sin tener que depender de la electrónica o de tener que llevar herramientas incriminadoras. Un agente podría encontrarse en una situación en la que simplemente no tiene acceso a un ordenador, o puede ser perseguido si posee herramientas para comunicaciones secretas. Pero una baraja... ¿Qué hay de malo en ello?
+Solitario obtiene su seguridad de la aleatoriedad inherente a las cartas bien barajadas. Manipulando la baraja, un comunicante puede crear una cadena de letras "aleatorias" que luego combina con su mensaje. Por supuesto Solitario puede ser simulado con un ordenador, pero está diseñado para ser utilizado a mano.
+Solitario puede parecer "low-tech", pero se pretende que su seguridad sea "high-tech". Diseñé Solitario para que fuera seguro incluso contra adversarios militares bien financiados, con los ordenadores más potentes y los criptoanalistas más inteligentes. Por supuesto, no existe ninguna garantía de que alguien encuentre un ataque contra Solitario (permanezcan atentos a esta página para futuras actualizaciones), pero el algoritmo es ciertamente mejor que cualquier otro cifrado de lápiz y papel que haya visto nunca.
+No es rápido, no obstante. El cifrar o descifrar un mensaje razonablemente largo puede llevar una tarde. En el libro de David Kahn, "Kahn on Codes", se describe un cifrado de lápiz y papel real, utilizado por un espía soviético. Tanto el algoritmo soviético como Solitario consumen aproximadamente el mismo tiempo para cifrar un mensaje: la mayor parte de una tarde.
+[Fuente](https://sindominio.net/biblioweb/telematica/solitario.html)
+
+## El prisionero
+"La policía arresta a dos sospechosos. No hay pruebas suficientes para condenarlos y, tras haberlos separado, los visita a cada uno y les ofrece el mismo trato. Si uno confiesa y su cómplice no, el cómplice será condenado a la pena total, diez años, y el primero será liberado. Si uno calla y el cómplice confiesa, el primero recibirá esa pena y será el cómplice quien salga libre. Si ambos confiesan, ambos serán condenados a seis años. Si ambos lo niegan, todo lo que podrán hacer será encerrarlos durante un año por un cargo menor."
+[Fuente](https://es.wikipedia.org/wiki/Dilema_del_prisionero)
+
+## El premio
+Antes de llenar el formulario para el sorteo, porfavor revisa en wikipedia si criptografia y esteganeografia, son la respuesta al sorteo. 
+
