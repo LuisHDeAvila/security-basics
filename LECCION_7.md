@@ -14,23 +14,23 @@ Esa pregunto surgio, de una de las respuestas mas frias que le eh dado a un usua
 A continuacion haremos un breve repaso de los modelos de control de accesos.
 
 ##### ACL
-  *Lista de control de acceso.*
+  **Lista de control de acceso.**
  El sistema consulta una lista para determinar si el usuario esta autorizado a acceder al recurso y de que manera.
   
 ##### RBAC
-  *Control de acceso basado en roles.*
+  **Control de acceso basado en roles.**
 El sistema asigna uno o varios roles a un meta-usuario. Una vez asignado un rol, este es agregado a una lista de control.
 
 ##### ABAC
-  *Control de acceso basado en atributos.*
+  **Control de acceso basado en atributos.**
 Se asignan roles en base a reglas, de este modo el usuario solo podra acceder a los recursos correspondientes a su rol.
 
 ##### PBAC
-  *Control de acceso basado en politicas.*
+  **Control de acceso basado en politicas.**
 Combinacion de ABAC o RBAC con ACL. El sistema comprueba la politica de seguridad del recurso. un ejemplo de este modelo es SAML.
   
 ##### RADAC
-  *Control de acceso adaptado al riesgo.*
+  **Control de acceso adaptado al riesgo.**
 El sistema calcula de manera heuristica y en base a factores externos a la identidad determina el nivel de riesgo del sistema, por lo tanto la autorizacion depende de factores como: la hora, la localizacion de la conexion, numero de intentos, cantidad de trafico, etc.
 
 ---
