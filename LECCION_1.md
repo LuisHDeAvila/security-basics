@@ -1,8 +1,8 @@
-# Primero lo primero
+# Antes de empezar...
 esta informacion es compartida con fines educativos, no me hago responsable por el malhuso que se pueda hacer de la misma. 
 este repositorio tiene la intencion de ser una guia conceptual.
 
-## Que es seguridad informatica? 
+## Que seguridad informatica? 
 
 A lo largo de los años, hemos escuchado que los hackers son cada vez mas sofisticados y poseen mayor numero de herramientas para atacar los sistemas informaticos, y es cierto, pero tambien lo es el hecho de cada vez se tiene mas concientizacion en las empresas y por parte de los usuarios, lo que hace que exista cada vez mayor concentracion de contramedidas.
 
@@ -27,7 +27,7 @@ Comentario anonimo:
 Confidencialidad, Integridad, y Accesibilidad.
 
 ## Algunos ejemplos de normas
-27001 y 27002
+ISO 27001 e ISO 27002
 
 ## Que es un script kiddie, Cracker y phracker
 Script kiddie: 
@@ -42,3 +42,5 @@ Script kiddie:
   Script kiddie: 
   } no roba ni sirve, usa herramientas de otros
 ```
+
+## El futuro es hoy
