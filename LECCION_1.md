@@ -2,7 +2,7 @@
 esta informacion es compartida con fines educativos, no me hago responsable por el malhuso que se pueda hacer de la misma. 
 este repositorio tiene la intencion de ser una guia conceptual.
 
-## Que seguridad informatica? 
+## Que es seguridad informatica? 
 
 A lo largo de los años, hemos escuchado que los hackers son cada vez mas sofisticados y poseen mayor numero de herramientas para atacar los sistemas informaticos, y es cierto, pero tambien lo es el hecho de cada vez se tiene mas concientizacion en las empresas y por parte de los usuarios, lo que hace que exista cada vez mayor concentracion de contramedidas.
 
