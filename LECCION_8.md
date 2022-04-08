@@ -6,6 +6,6 @@ es facil pensar en realizar operaciones como sumar A y B. es decir solo una oper
 
 
 SOLUCION:
-[Ensamblador](https://schweigi.github.io/assembler-simulator/)
+[Hola mundo en ensamblador](https://schweigi.github.io/assembler-simulator/)
 
 ## rompe la caja de arena, no hoy ni la proxima semana, cuando tu quieras.
