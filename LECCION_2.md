@@ -19,12 +19,15 @@ me diria.
 ```
 .rw-r--r-- eleache eleache  64 KB Tue Mar  8 21:12:14 2022 - \.pdf
 .rw-r--r-- eleache eleache   0 B  Thu Jan 27 05:58:44 2022 - anon.txt
+```
+y eso que significa? Creo que con la siguiente informacion podras deducir que significa.
+```
 .110100100  # representacion en binario
 .[110][100][100] # binario separado en 3 grupos: propietario, grupo y otros
 .[421][421][421] # representacion de las posiciones equivalentes en sistema decimal
 .[7][7][7] = 111 111 111 = rwxrwxrwx = Maximo nivel de privilegios.
 
-Permisos para cada uno:
+Permisos para Propietario del archivo, Grupo al que pertenece el propietario y Otros:
         1   ejecucion 
         2   escritura
         3   escritura y ejecucion
@@ -32,10 +35,9 @@ Permisos para cada uno:
         5   lectura y ejecucion
         6   lectura y escritura
         7   lectura, escritura y ejecucion
-
 ```
-Eso es el sistema de permisos del kernel linux, que hereda del lenguaje de programacion C, que tambien se lo heredo a sus semejantes Windows y MacOS. Este es un tema avanzado en compiladores, pero mucha de la seguridad moderna se ve afectada por herencia.
-El sistema de autenticacion va mas alla en nuestra sociedad, pues en algunos paises se pide un chip para identificacion de la poblacion, o se le asigna un numero en lugar de nombres a los ninos por ser muy parecidos, tal es el caso de los paises asiaticos, de donde provienen los sistemas de huella digital (Confirmo un mito occidental, en occidente no logran distinguirse ya que son muy parecidos, mas los "HAN", con todo respeto).
+Eso es el sistema de permisos del kernel linux, que hereda del lenguaje de programacion C, que tambien se lo heredo a sus semejantes Windows y MacOS. Este es un tema avanzado en compiladores, pero mucha de la seguridad moderna se ve afectada por "herencia". y no es culpa de nadie, ni de Kurt Godel, que demostro que las matematicas eran inperfectas, y si, para corregir muchos de estos problemas, hay que crear unas nuevas matematicas, y si si estan trabajando en eso, y es la nueva tabla periodica que describen las 4 fuerzas fundamentales, pero estamos hablando de informatica, no de fisica cuantica...
+Con eso cubrimos el aspecto de la Autorizacion, mientras tanto la autenticacion va mas alla en nuestra sociedad, pues en algunos paises se pide un chip para identificacion de la poblacion, o se le asigna un numero en lugar de nombres a los ninos por ser muy parecidos, tal es el caso de los paises asiaticos, de donde provienen los sistemas de huella digital (Confirmo un mito occidental, en occidente no logran distinguirse ya que son muy parecidos, mas los "HAN", con todo respeto). La web 3.0 traera libertad en cuanto a Identidad, pero no estoy seguro de que las personas esten listas para cuidar de si mismas, pues en estos modernos sistemas de criptografia y cadenas de bloques, todo sera resposabilidad del usuario, es decir si olvidas la contrasena, no habra un link que diga "recuperar"... 
 
 ## como realizar tu primer hackeo etico! __ aqui y ahora __!
 entra a [Online GDB](https://www.onlinegdb.com/) 
