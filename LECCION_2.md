@@ -12,7 +12,7 @@ y con el propietario, el grupo y otros.
 
 ### sabes como leer el lenguaje binario?
 mira si leemos de derecha a izquierda, uno, pues es uno, si leemos uno uno es tres,  y si leemos uno uno uno es siete.
-por lo tanto, respectivamente           1 r                           3 r   w                         7 r   w   x
+por lo tanto, respectivamente           1 r                           3  w  x                         7 r   w   x
 y otra vez aparece                  1propietario                   3grupo                         7otros
 y si leo los archivos de mi carpeta de Documentos con el comando ls -la
 me diria.
@@ -24,12 +24,18 @@ me diria.
 .[421][421][421] # representacion de las posiciones equivalentes en sistema decimal
 .[7][7][7] = 111 111 111 = rwxrwxrwx = Maximo nivel de privilegios.
 
-Dato: 
+Permisos para cada uno:
+        1   ejecucion 
+        2   escritura
+        3   escritura y ejecucion
+        4   lectura
+        5   lectura y ejecucion
+        6   lectura y escritura
+        7   lectura, escritura y ejecucion
 
 ```
-podras notar unas letras y guiones al principio de la breve lista, digamos que significa que propietario puede leer(read) y escribir(write), grupo solo leer(read), y otros solo leer(read), ninguno tiene permiso de ejecucion (x).
-Eso es el sistema de permisos del kernel linux, que hereda del lenguaje de programacion C, que tambien se lo heredo a sus semejantes Windows y MacOS.
-Pero el sistema de autenticacion va mas alla en nuestra sociedad, pues en algunos paises ya se pide un chip para identificacion de la poblacion, o se le ponen numeros del en vez de nombres a los ninos por ser muy parecidos, tal es el caso de los paises asiaticos, de donde provienen los sistemas de huella digital (confirmo, ni ellos logran distinguirse ya que son muy parecidos, mas los "HAN", con todo respeto).
+Eso es el sistema de permisos del kernel linux, que hereda del lenguaje de programacion C, que tambien se lo heredo a sus semejantes Windows y MacOS. Este es un tema avanzado en compiladores, pero mucha de la seguridad moderna se ve afectada por herencia.
+El sistema de autenticacion va mas alla en nuestra sociedad, pues en algunos paises se pide un chip para identificacion de la poblacion, o se le asigna un numero en lugar de nombres a los ninos por ser muy parecidos, tal es el caso de los paises asiaticos, de donde provienen los sistemas de huella digital (Confirmo un mito occidental, en occidente no logran distinguirse ya que son muy parecidos, mas los "HAN", con todo respeto).
 
 ## como realizar tu primer hackeo etico! __ aqui y ahora __!
 entra a [Online GDB](https://www.onlinegdb.com/) 
@@ -41,3 +47,8 @@ ls -la; # permiso de lectura
 cat /etc/passwd # usuarios autenticados del sistema
 uname -a # Nombre del sistema que estas operando
 ```
+Este breve ejercicio equivale a lo que podrias llegar a ver en un servidor comun y corriente, ya que en su mayoria son Linux, o derivados del sistema operativo Unix. La mayoria de los servidores web son derivados de Unix, y esto no es casualidad, pues mucho del desarrollo de estos sistemas proviene de la colaboracion de millones de programadores, si quieres conocer la historia te invito a escuchar el siguiente podcast: 
+
+[Command Line Heros, Spanish version.](https://www.redhat.com/es/command-line-heroes)
+
+RedHat, te contare algo chistoso... hace unos meses cuando trabaje con un ex-gerente de microsoft como jefe, me propuse a que trabajaria en RedHat, cueste lo que cueste, lo chistoso es que RedHat no ofrece empleo, por su modelo opensource, y si, puedo brindar soporte en nombre de RedHat, de algun modo cumpli mi meta. 
