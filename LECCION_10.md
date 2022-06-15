@@ -9,6 +9,21 @@ si quieres flashear tu firmware interno, usa programacion neuro linguistica.
 
 ### que es un mnemotecnico?
 es una tecnica para memorizar, y el lenguaje ensamblador esta escrito con mnemotecnias que son directamente equivalentes a ordenes en lenguaje binario.
+
+un ejemplo es
+```
+  mv a1, b1
+```
+y esto equivale a mover a1 a b1, y solo pongo este ejemplo para no salirnos tanto del tema.
+
+### Veamos un ejemplo: soh-cah-toa
+durante el bachillerato (yes, im from mexico, vato) usabamos este mnemotecnico que nos servia de mucho cuando necesitabamos operar con identidades trigonometricas, solo debiamos aprendernos sohcahtoa enlugar de:
+
+el seno es igual al opuesto sobre la hipotenusa
+el coseno es igual al adyacente sobre la hipotenusa
+y la tangente es igual al opuesto sobre el adyacente
+
+### Ejercicio optativo: ASCII
 a continuacion esta el estandar ASCII para codificacion de caracteres. Van del 0 al 127, y esto es porque en codigo binario se pueden manejar tales valores: 
 
 { 11111111 } un byte con todos sus bites encendidos (el 1 significa encendido, y es verdadero, el 0 significa apagado, y es falso)
@@ -34,4 +49,7 @@ Dec Hex    Dec Hex    Dec Hex  Dec Hex  Dec Hex  Dec Hex   Dec Hex   Dec Hex
  13 0D CR   29 1D GS   45 2D -  61 3D =  77 4D M  93 5D ]  109 6D m  125 7D }
  14 0E SO   30 1E RS   46 2E .  62 3E >  78 4E N  94 5E ^  110 6E n  126 7E ~
  15 0F SI   31 1F US   47 2F /  63 3F ?  79 4F O  95 5F _  111 6F o  127 7F DEL
- ```
+```
+
+Intentemos crear algunos mnemotecnicos para memorizar la codificacion ascii.
+
