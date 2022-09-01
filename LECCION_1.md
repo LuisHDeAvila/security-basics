@@ -1,46 +1,59 @@
 # Antes de empezar...
-esta informacion es compartida con fines educativos, no me hago responsable por el malhuso que se pueda hacer de la misma. 
+Esta informacion es compartida con fines educativos, no me hago responsable por el malhuso que se pueda hacer de la misma.
 este repositorio tiene la intencion de ser una guia conceptual.
-
-## Que es seguridad informatica? 
-
+--
+## Definiciones que se usaran a lo largo de este mini-blog.
+#### Que es seguridad informatica?
 A lo largo de los años, hemos escuchado que los hackers son cada vez mas sofisticados y poseen mayor numero de herramientas para atacar los sistemas informaticos, y es cierto, pero tambien lo es el hecho de cada vez se tiene mas concientizacion en las empresas y por parte de los usuarios, lo que hace que exista cada vez mayor concentracion de contramedidas.
-
-## Que es cyberseguridad? 
-
+#### Que es cyber-seguridad?
 hemos escuhado ininterrumpidamente en las noticias, en la prensa, en la television... el sufijo "cyber" acompañado de terminos como amenaza, delincuencia, seguridad, guerra. Si queremos saber la etimologia de este sufijo, tenemos que recurrir al griego que lo traduciria como "arte de gobernar una nave".
-
 Simplemente, Cyberseguridad: "es el conjunto de metodos procedimientos y herramientas que nos permiten proporcionar seguridad a los sistemas, redes, dispositivos, software, servicios.Y por lo tanto es un requisito previo para que personas, empresas y administraciones puedan desarrollar su actividad en este entorno."
-
-## Que es un hacker? 
-Mira siendo estrictos, hacker es un termino que surgio en el MIT, originandose del sonido que hacian las maquinas al golpearlas cuando estas tenian un funcionamiento indeseado, es decir, recurrir a la vieja confiable "de un golpe, funciona". Entonces ese sonido se expresaba como HACK!.
-
+#### Que es un "Hacker"?
 Segun la RAE, hacker es: "Persona con grandes habilidades en el manejo de computadoras que investiga un sistema informático para avisar de los fallos y desarrollar técnicas de mejora."
+El "hacker" de hollywood la mayoria del tiempo corresponde a un cyber-terrorista, el "Hacker" del M.I.T. era el que solucionaba los errores de los primeros modems, dando un golpe sobre la carcasa del mismo, generando un sonido que se podria expresar como "hack! hack!" y asi podria realizar una larga lista de diferentes definiciones o enfoques derivados de la palabra con la que buscamos describir a una serie de sujetos que se describen a si mismos de la siguiente forma:
+```
+[…]
 
-Mira, pero para que te definan bien que es un hacker, debes preguntarle a uno, no se donde podras encontrar uno, pero si lo encuentras me avisas porfavor que me haria bien conocer almenos alguno.
-Comentario anonimo:
-"Ya han sido varias veces que me veo en problemas por que la gente comienza a decirme asi. Hace 2 años yo no sabia que significaba esta palabra, pero me surgio la duda cuando reflexione sobre cuantas veces la habia escuchado, donde y que significaba. Por ese motivo, llegue a las comunidades que hay en internet para aprender del tema, yo solo queria hacer una aplicacion para android para pasar el segundo cuatrimestre de la carrera de Ingenieria en Energia y termine hackeando mi motorola (root), insertandole malware meterpreter, y realizando mis primeras pruebas de explotacion de vulnerabilidades, por suerte a los pocos dias me intervino un maestro para decirme lo que estaba bien y lo que estaba mal. Desde entonces mantengo mis reservas cuando se toma ese tema, pero  en ocasiones empresas me buscan para atender algun punto al respecto. y me parecia repetitivo hacer estas explicaciones. Asi que me decidi a hacer esta serie de posts."
--Fin de comentario anonimo.
+Este es nuestro mundo ahora…
+El mundo del electrón y el conmutador, la belleza del baudio.
+Hacemos uso de un servicio que ya existe sin pagar,
+por que podría ser ridículamente barato,
+como el polvo, si no estuviera en manos de glotones hambrientos de ganancias,
+y ustedes nos llaman criminales.
 
+Nosotros exploramos…
+y ustedes nos llaman criminales.
+Nosotros buscamos detrás del conocimiento…
+y ustedes nos llaman criminales.
+Nosotros existimos sin color, sin nacionalidad, sin prejuicios religiosos…
+y ustedes nos llaman criminales.
 
-## Cuales son las bases de la seguridad informatica?
-Confidencialidad, Integridad, y Accesibilidad.
+Ustedes construyen bombas atómicas,
+ustedes hacen la guerra,
+asesinan, engañan y nos mienten
+y tratan de hacernos creer que es por nuestro bien,
+ahora nosotros somos los criminales.
 
-## Algunos ejemplos de normas
-ISO 27001 e ISO 27002
+Si, soy un criminal.
+Mi crimen es la curiosidad.
+Mi crimen es el juzgar a las personas por lo que dicen y piensan, no por como se ven.
+Mi crimen es ser mucho más inteligente que ustedes, algo por lo cual jamás podrán perdonarme.
 
-## Que es un script kiddie, Cracker y phracker
-Script kiddie: 
-  mira si pensabas que iba a criticar a los script kiddie, pues no, porque saben exactamente lo incompetente que es usar herramientas de otros. y para ser sinceros, ni el mismo sujeto que le agrego el distintivo a Linux de usar estos titulos en las distros compuestas por mas de dos palabras, en alGNUo de estos sitemas operativos se incrusta software de terceros, como el que permite la telemetria. sabiendo todos que el ni es el autor, ni es relevante dentro del proyecto linux, es decir es facilmente reemplazable, este personaje insiste en imponerle un nombre diferente al del kernel: "Linux".
-  pero esas son guerras santas, cosas que nunca terminan, conflictos que siempre surgen, Listillos que quieren abusar de la ignorancia de la gente, supuestas guerras fantasma, virus probabilisticamente imposibles (una particula de proteina es una maravilla de la existencia, un conjunto de casualidades extraordinarias, y aun asi es 100 veces menor en masa a la particula de un virus supuestamente espontaneo), la mejor contramedida con un ambiente tan singular, es nunca perder de vista el criterio, recurrir al pensamiento lateral, y sobre todo, nunca dejar de aprender. 
-```  
-    {
-  Cracker: 
-  Phracker: }
-    ambos roban
-  {
-  Script kiddie: 
-  } no roba ni sirve, usa herramientas de otros
+Soy un Hacker, y este es mi manifiesto.
+
+Pueden detener a este individuo, pero no podrán detenernos a todos…
+después de todo, todos somos iguales.
+
+[…]
+# from: [Fwhibbit](https://fwhibbit.es/manifiesto-bienvenidos-a-fwhibbit)
 ```
 
-## El futuro es hoy
+#### Cuales son las bases de la seguridad informatica?
+Confidencialidad, Integridad, y Accesibilidad.
+
+#### Que es Script-kiddie, Cracker y Phracker
+Script-kiddie: se trata de usuarios con bajos o nulos conocimientos en programacion y desconoce el funcionamiento de las cosas que ejecuta para realizar ataques a exploits conocidos (es un buen habito que si no hay vulnerabilidades en un sistema, se crean).
+
+Cracker: Cyber-delincuente.
+
+Phracker: Son los hackers de la vieja escuela, comenzaron a explotar vulnerabilidades de sistemas de telecomunicaciones desde tiempos remotos. hoy en dia se considera altamente ilegal violar la seguridad de los sistemas de telecomunicaciones, por lo que no se encuentra mucho de este tema por la web, es mas comun en grupos de noticias o IRC.
