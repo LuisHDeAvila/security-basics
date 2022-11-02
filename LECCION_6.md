@@ -1,7 +1,14 @@
 # Introduccion al maravilloso mundo de las vulnerabilidades
 ## Lo que necesitas saber
 Mira existen muchas explicaciones, comenzare por explicarte que hablar de codigo de programacion de computadoras, es como hablar de alicia en el pais de las maravillas. tu sabes, ese cuento donde siguio al conejo blanco a un mundo muy abstracto.
-y esa es la palabra magica: ABSTRACCION. ejemplos de abstraccion: el amor, el tiempo y la muerte.
+y esa es la palabra magica: ABSTRACCION. ejemplos de abstraccion: el amor, el tiempo y la muerte (si lo saque de una pelicula, muy bella por cierto).
+
+## Autorizacion y Autenticacion
+### Autenticacion
+Es el proceso de demostrar la posesion de una identidad determinada presentando uno o varios atributos de dicha identidad (clave, huella dactilar, certificado electronico, etc.)
+
+### Autorizacion
+proceso por el cual una autoridad concede a un usuario permisos de acceso a cierto conjunto de recursos ya sean archivos, sistemas, etc.
 
 ## De la abstraccion a la realidad
 "bajarse del avion" es como mis amigos le dicen, y eso que algunos son cientificos biologos, es decir son chicos educados, y bien portados (naaaah). Hay uno en especial por el que me identifico como crybaby en algunos entornos. y es para representar que llevo a hellboy a donde quiera que lo vaya a necesitar, es decir Hellboy y Crybaby son canciones de lilpeeep que escogimos durante nuestro viaje a canada. dejando un sticker en el callejon de los grafitis de toronto. cerca de kensignton market, donde nos hospedamos durante 9 dias.

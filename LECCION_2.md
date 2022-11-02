@@ -1,31 +1,23 @@
-# Seguridad informatica para todos
-## KISS: Keep It Simple, Stupid!
-Mi intencion es que abordemos los temas de la forma mas simple posible, porque el principal enemigo de la seguridad es la complejidad. La leccion 3 es un cuestionario originalmente de la CIA, pero te lo traigo en un formato mas digerible con la intencion que lo puedas implementar en tu entorno: tu empresa, tu familia, tu comunidad, tu club social, tu taller, etc...
-Entonces para llegar a tener una comprension util en la seguridad informatica, es necesario tener los fundamentos bien definidos, porque algo que eh notado principalmente en el area informatica, es que existen muchos "falsos amigos" como consecuencia del marketing (y de la ingenieria social).
-Porque los sistemas que nos rodean en la actualidad, se basaron en la ocultacion, argumentando que el usuario no tiene porque estar enterado del funcionamiento real de las cosas, suponiendo que las cosas funcionan bien, pero, nada es para siempre y la seguridad implica uno de los factores mas criticos para el desarrollo del ser humano, entonces tal vez deban replantear esos principios que insisten en ocultar y como prueba de eso, los modulos de seguridad mas criticos estan dentro del microchip que conocemos como CPU/Procesador, que probablemente tenga su propio sistema operativo dentro (minix).
+# Leccion 2
+## Sobre el lenguaje binario...
+Cuando hablamos de lenguaje binario, no significa que hablemos de escribir ceros y unos (bits) en lugar de los caracteres de la lengua inglesa (ASCII), mas bien hablamos de la arquitectura con la que funcionan las computadoras contemporaneas, que de alguna forma fueron programadas, es decir, no cayeron del cielo (verdad?).
+La base es el sistema binario ,que en contraste con el sistema decimal al que estamos acostumbrados a recurrir para realizar todo tipo de operaciones, siendo las mas basicas suma (adicion) y resta (sustraccion), y como dato de cultura general, usamos el sistema decimal porque tenemos 10 dedos y a nuestros antepasados les parecio mas facil trabajar en multiplos de 10, y no tampoco quiere decir que las computadoras tengan 2 dedos, pero el lenguaje binario tiene 2 simbolos para representar todo lo que vemos en nuestras pantallas digitales, al principio si se requeria la tediosa tarea de escribir esas largas cadenas de unos y ceros, pero luego a alguien se le ocurrio usar mnemotecnicos, para compactar esas cadenas de bits (instrucciones de maquina), en algo conocido como lenguaje ensamblador, luego se creo el lenguaje C, a partir de alli surgieron mas formas de representar las instrucciones, que hoy conocemos como lenguajes de programacion. Surgieron paradigmas de programacion, que son formas de resolver problemas, hasta el dia de hoy que podemos representar y digitalizar nuestra realidad mediante la abstraccion.
 
-## Autorizacion y Autenticacion
-### Autenticacion
-Es el proceso de demostrar la posesion de una identidad determinada presentando uno o varios atributos de dicha identidad (clave, huella dactilar, certificado electronico, etc.)
+### en caso de que seas de los que aprenden haciendo, te dejare algo por aqui
+Instrucciones: entra a [Online GDB](https://www.onlinegdb.com/) 
+selecciona BASH como lenguaje. en la lista desplegable ubicada en la parte superior derecha de la interface.
+Ahora introduce las siguientes lineas, y da click en [] RUN l> ]
 
-### Autorizacion
-proceso por el cual una autoridad concede a un usuario permisos de acceso a cierto conjunto de recursos ya sean archivos, sistemas, etc.
-
-### Lenguaje Binario
-Es la forma mas simple de representar la informacion.
-
-### como realizar tu primer hackeo etico! __ aqui y ahora __!
-entra a [Online GDB](https://www.onlinegdb.com/) 
-selecciona BASH como lenguaje.
-copia y pega esto
-```
+```bash
 cd .. ; cd .. ; 
 ls -la; # permiso de lectura
 cat /etc/passwd # usuarios autenticados del sistema
 uname -a # Nombre del sistema que estas operando
+whoami # tu nombre de usuario
+bash -i # ahora entraste en una sesion interactiva de algo conocido como shell
+help # te da una breve descripcion de los operadores disponibles en la shell
+cd # volvimos a la carpeta Home de tu usuario
+pwd # muestra la ruta absoluta desde la raiz
 ```
-Este breve ejercicio equivale a lo que podrias llegar a ver en un servidor comun y corriente, ya que en su mayoria son Linux, o derivados del sistema operativo Unix. La mayoria de los servidores web son derivados de Unix, y esto no es casualidad, pues mucho del desarrollo de estos sistemas proviene de la colaboracion de millones de programadores, si quieres conocer la historia te invito a escuchar el siguiente podcast: 
-
-[Command Line Heros, Spanish version.](https://www.redhat.com/es/command-line-heroes)
-
-RedHat, te contare algo chistoso... hace unos meses cuando trabaje con un ex-gerente de microsoft como jefe, me propuse a que trabajaria en RedHat, cueste lo que cueste, lo chistoso es que RedHat no ofrece empleo, por su modelo opensource, y si, puedo brindar soporte en nombre de RedHat, de algun modo cumpli mi meta. 
+Mira 
+Si quieres saber mas sobre que es una shell consulta el fichero llamado [LaLineadeComandos.txt](anexos/LaLineadeComandos.txt).
